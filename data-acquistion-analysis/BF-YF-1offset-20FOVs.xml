@@ -1,0 +1,1717 @@
+<?xml version="1.0"?>
+<!--*- mode: xml -*-->
+<temika>    
+	<save>
+		<append>DATE</append>
+		<basename>/home/lm653/data/Pierre/single_bac</basename>
+	</save>
+	<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+		<transmission>ON</transmission>
+		<record>ON</record>                 
+		<genicam>
+			<enumeration feature="TriggerMode">On</enumeration>
+		</genicam>
+	</camera>
+	
+	<repeat repetitions="72">
+		
+		<timestamp>0</timestamp>
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 1 done -*-->
+<!--*- BF 1 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 1 offset done -*-->
+<!--*- YFP 1 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 2 done -*-->
+<!--*- BF 2 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 2 offset done -*-->
+<!--*- YFP 2 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 3 done -*-->
+<!--*- BF 3 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 3 offset done -*-->
+<!--*- YFP 3 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 4 done -*-->
+<!--*- BF 4 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 4 offset done -*-->
+<!--*- YFP 4 done -*-->
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 5 done -*-->
+<!--*- BF 5 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 5 offset done -*-->
+<!--*- YFP 5 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 6 done -*-->
+<!--*- BF 6 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 6 offset done -*-->
+<!--*- YFP 6 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 7 done -*-->
+<!--*- BF 7 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 7 offset done -*-->
+<!--*- YFP 7 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 8 done -*-->
+<!--*- BF 8 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 8 offset done -*-->
+<!--*- YFP 8 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 9 done -*-->
+<!--*- BF 9 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 9 offset done -*-->
+<!--*- YFP 9 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 10 done -*-->
+<!--*- BF 10 done -*-->  
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 10 offset done -*-->
+<!--*- YFP 10 done -*-->    
+
+<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 11 done -*-->
+<!--*- BF 11 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 11 offset done -*-->
+<!--*- YFP 11 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 12 done -*-->
+<!--*- BF 12 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 12 offset done -*-->
+<!--*- YFP 12 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 13 done -*-->
+<!--*- BF 13 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 13 offset done -*-->
+<!--*- YFP 13 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 14 done -*-->
+<!--*- BF 14 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 14 offset done -*-->
+<!--*- YFP 14 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 15 done -*-->
+<!--*- BF 15 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 15 offset done -*-->
+<!--*- YFP 15 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 16 done -*-->
+<!--*- BF 16 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 16 offset done -*-->
+<!--*- YFP 16 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 17 done -*-->
+<!--*- BF 17 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 17 offset done -*-->
+<!--*- YFP 17 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1000 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 18 done -*-->
+<!--*- BF 18 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 18 offset done -*-->
+<!--*- YFP 18 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>500 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 19 done -*-->
+<!--*- BF 19 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 19 offset done -*-->
+<!--*- YFP 19 done -*-->
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x20</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="5">6500</set>
+        </illumination>
+        
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>730 4</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 4</move_absolute>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>5</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">1</float>
+				<float feature="ExposureTime">50000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+
+<!--*- BF offset 20 done -*-->
+<!--*- BF 20 done -*-->  
+
+		<illumination>
+			<sequence_reset></sequence_reset> 
+    		<sequence_step number="0">0x04</sequence_step>
+            <sequence_enable>ON</sequence_enable>
+			<set number="2">65500</set>
+        </illumination>	
+		
+		<microscope>
+			<eclipsetie>
+				<pfs_offset>20001</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		
+		<microscope>
+			<eclipsetie>
+				<filter_block_cassette>4</filter_block_cassette>
+			</eclipsetie>
+		</microscope>
+		
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<float feature="Gain">32</float>
+				<float feature="ExposureTime">400000</float>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+        
+		<camera name="Genicam FLIR Blackfly S BFS-U3-70S7M 015602AE">
+			<genicam>
+				<command feature="TriggerSoftware"></command>
+			</genicam>
+		</camera>
+		
+		<sleep>0:0:1</sleep>
+ 
+<!--*- YFP 20 offset done -*-->
+<!--*- YFP 20 done -*-->
+
+        <microscope>
+                    <xystage axis="x">
+                            <move_absolute>0 1</move_absolute>
+                    </xystage>
+                    <xystage axis="y">
+                            <move_absolute>0 1</move_absolute>
+                    </xystage>
+        </microscope>
+        
+        <sleep timestamp="0">0:20:00</sleep>
+
+    </repeat>
+    <illumination>
+            <record>OFF</record>
+    </illumination>
+    <camera name="Andor iXon3 DU897_BV">
+            <record>OFF</record>
+    </camera>
+</temika>
