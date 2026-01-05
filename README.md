@@ -30,14 +30,15 @@ Contains analysis results and visualization scripts for YFP (Yellow Fluorescent 
 ## Setup and Usage
 
 ### Prerequisites
-- Python 3.x
+- Python 3.11
 - Jupyter Notebook
-- Required Python packages (install via `pip install -r requirements.txt`)
+- Required Python packages can be found on the headers of the notebooks
 
 ### Installation
 1. Clone this repository
-2. Install required dependencies
-3. Launch Jupyter Notebook to access the interactive notebooks
+2. Create a virtual environment
+3. Install required dependencies
+4. Launch Jupyter Notebook to access the interactive notebooks
 
 ## Usage
 
@@ -45,9 +46,9 @@ Contains analysis results and visualization scripts for YFP (Yellow Fluorescent 
    - For the microscopy stage, stop the pi_webapp process first (if running) and run the [microscope API](notebooks-api/microscope_api.py).
    - Use the notebooks in the [notebooks-api/](notebooks-api/) directory.
    - Configure the IP address for the microscope controller in the notebook before starting. Use 0.0.0.0 if you are using the stand-alone configuration and a specific IP address if a hybrid setup is used.
-   - Start with [strobe-microscope-UI](notebooks-api/strobe-microscope-UI.ipynb) for microscope control. 
-   - The syringe pump control can be accessed via [syringe-pump-ui.ipynb](notebooks-api/syringe-pump-ui.ipynb).
-   - Then [UI-integrated.ipynb](notebooks-api/UI-integrated.ipynb) for the complete interface.
+   - Start with [strobe-microscope-ui](notebooks-api/strobe-microscope-ui.ipynb) for microscope control. 
+   - The syringe pump control can be accessed via [syringe-pump-ui](notebooks-api/syringe-pump-ui.ipynb).
+   - Then [UI-integrated](notebooks-api/UI-integrated.ipynb) for the complete interface.
 
 2. Data acquistion:
     - For imaging acquisiton, used the custom scripts in [data-acquisition-analysis](data-acquisition-analysis/)
@@ -81,12 +82,16 @@ If you use this work in your research, please cite it as:
 
 Padilla-Huamantinco, P. (2025). *Integration and Validation of Modular Open-Source Platform for Droplet Microfluidics*. Internship Report, Pontificia Universidad Católica de Chile.
 
+BibTeX:
+```
 @misc{padillahuamantinco2025,
   author       = {Padilla-Huamantinco, Pierre},
-  title        = {{Integration and Validation of Modular Open-Source Platform for Droplet Microfluidics}},
-  year         = {2025},
-  publisher    = {Pontificia Universidad Católica de Chile},
+  title        = {Integration and Validation of Modular Open-Source Platform for Droplet Microfluidics},
+  year         = {2026},
+  month        = {Jan},  % Add month of publication
+  howpublished = {Internship Report, Pontificia Universidad Católica de Chile},
   url          = {https://github.com/biodotpe/internship-report-2025},
-  note         = {Internship Report, https://github.com/biodotpe/internship-report-2025},
-  howpublished = {\url{https://github.com/biodotpe/internship-report-2025}}
+  note         = {Repository: \url{https://github.com/biodotpe/internship-report-2025}},
+  abstract     = {This internship report documents the integration and validation of modular open-source components for droplet microfluidics, including a strobe-enhanced microscopy stage and 3D-printed syringe pumps, with applications in single-cell analysis}
 }
+```
