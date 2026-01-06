@@ -51,7 +51,7 @@ Contains analysis results and visualization scripts for YFP (Yellow Fluorescent 
 1. For instrument control:
    - For the microscopy stage, stop the pi_webapp process first (if running) and run the [microscope API](notebooks-api/microscope_api.py).
    - Use the notebooks in the [notebooks-api/](notebooks-api/) directory.
-   - Configure the IP address for the microscope controller in the notebook before starting. Use 0.0.0.0 if you are using the stand-alone configurat,ion and a specific IP address if a hybrid setup is used.
+   - Configure the IP address for the microscope controller in the notebook before starting. Use 0.0.0.0 if you are using the stand-alone configuration, and a specific IP address if a hybrid setup is used.
    - Start with [strobe-microscope-ui](notebooks-api/strobe-microscope-ui.ipynb) for microscope control. 
    - The syringe pump control can be accessed via [syringe-pump-ui](notebooks-api/syringe-pump-ui.ipynb).
    - Then [UI-integrated](notebooks-api/UI-integrated.ipynb) for the complete interface.
@@ -62,6 +62,7 @@ Contains analysis results and visualization scripts for YFP (Yellow Fluorescent 
 
 3. For image analysis:
    - Use the ImageJ macros in [data-acquisition-analysis](data-acquisition-analysis/)
+   - Run [plot-droplet-sizes.py](size-results/plot-droplet-sizes.py) for generating droplet size plots
    - Run [plot-intensity.py](YFP-results/plot-intensity.py) for generating intensity plots
 
 ## Contributing
